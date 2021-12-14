@@ -4,6 +4,7 @@ export const RESET = 'TIMER::RESET';
 export const TOGGLE_TIMER = 'TIMER::TOGGLE_TIMER';
 export const SWITCH_MODE = 'TIMER::SWITCH_MODE';
 export const SET_TIMER = 'TIMER::SET_TIMER';
+export const START_TIMER = 'TIMER::START_TIMER';
 
 export const increment = (mode) => ({
     type: INCREMENT,
@@ -30,4 +31,8 @@ export const switchMode = () => ({
 
 export const setTimer = () => ({
     type: SET_TIMER,
+});
+
+export const startTimer = () => ({
+    type: START_TIMER,
 });

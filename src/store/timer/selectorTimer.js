@@ -25,3 +25,7 @@ export const getTimerRunning = (state) => {
 export const getColor = (state) => {
     return state.color
 };
+
+export const getTimerIsStarted = (state) => {
+    return state.timerIsStarted
+};

@@ -32,7 +32,7 @@ export const App = () => {
         dispatch(switchMode())
       }
       dispatch(setTimer());
-    }, 1000);
+    }, 500);
     return () => clearTimeout(timerId)
   })
 
