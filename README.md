@@ -1,3 +1,3 @@
 Pomodoro Timer
 
-Stacks: HTML, CSS, JS, ReactJS, Redux, Redux-thunk
+Stacks: HTML, CSS, JS, ReactJS, Redux
