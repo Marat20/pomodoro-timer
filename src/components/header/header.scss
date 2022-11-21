@@ -1,0 +1,47 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  color: #fff;
+  border-radius: 40px 40px 0 0;
+
+  .red {
+    background-color: #eb144c;
+  }
+
+  .green {
+    background-color: rgb(12, 199, 12);
+  }
+
+  #time-left {
+    font-size: 8rem;
+  }
+
+  #start_stop,
+  #reset {
+    margin-top: 40px;
+  }
+  button {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin: 8px;
+    transition: background-color 0.3s ease-in-out;
+    &:hover {
+      background-color: #411133;
+      color: #fff;
+    }
+
+    .fa-play,
+    .fa-pause,
+    .fa-sync-alt {
+      margin-right: 10px;
+    }
+  }
+}
