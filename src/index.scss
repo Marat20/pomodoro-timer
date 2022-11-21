@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #171717;
+  box-sizing: border-box;
+}
+
+#app-container {
+  width: 45vw;
+}
+
+@import url('./components/header/header.scss');
+@import url('./components/footer/footer.scss');
+
+// MQ
+
+@media (max-width: 600px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  #app-container {
+    width: 100vw;
+    header,
+    footer {
+      border-radius: 0;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  #app-container {
+    width: 480px;
+  }
+}
+
+@media (min-width: 1440px) {
+  #app-container {
+    width: 780px;
+  }
+}
