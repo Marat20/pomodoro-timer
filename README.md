@@ -18,4 +18,4 @@ This is time management technique. The technique involves increasing work effici
 npm run start
 ```
 
-**Stacks:** HTML, CSS, JS, ReactJS, Redux, Redux-thunk, Webpack
+**Stacks:** HTML, SCSS, TypeScript, ReactJS, Redux toolkit, React-icons
